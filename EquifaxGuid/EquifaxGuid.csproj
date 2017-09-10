@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Aaron Bockover</Authors>
+    <Company />
+    <Product>Support for Equifax-style unique identifiers (MMDDyyHHmm)</Product>
+    <Description>Equifax-style GUIDs are widely used throughout the financial industry. Now you can use them too!</Description>
+    <PackageProjectUrl>https://github.com/abock/EquifaxGuid</PackageProjectUrl>
+    <Copyright>Copyright 2017 Aaron Bockover</Copyright>
+    <PackageLicenseUrl>https://github.com/abock/EquifaxGuid/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/abock/EquifaxGuid/master/dog.jpg</PackageIconUrl>
+    <RepositoryUrl>https://github.com/abock/EquifaxGuid</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>guid, security, equifax, timestamp</PackageTags>
+  </PropertyGroup>
+
+</Project>

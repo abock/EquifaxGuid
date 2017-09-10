@@ -25,6 +25,6 @@ namespace Equifax
                 $"{secureTimestamp.Day:00}" +
                 $"{secureTimestamp.Year % 100:00}" +
                 $"{secureTimestamp.Hour:00}" +
-                $"{secureTimestamp.Minute:00}");\
+                $"{secureTimestamp.Minute:00}");
     }
 }

@@ -14,6 +14,8 @@
     <RepositoryUrl>https://github.com/abock/EquifaxGuid</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>guid, security, equifax, timestamp</PackageTags>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Add the ability to specify your own unique time stamp from on the GUID is based.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>

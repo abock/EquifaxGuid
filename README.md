@@ -2,9 +2,13 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/9s5bbjr35hanmws6?svg=true)](https://ci.appveyor.com/project/abock/equifaxguid)
 
-An open source implementation for Equifax-style unique identifiers (`MMDDyyHHmm`) for .NET Standard 2.0.
+An open source implementation for Equifax-style unique identifiers
+(`MMDDyyHHmm`) for .NET Standard 2.0. Available on
+[nuget.org](https://www.nuget.org/packages/EquifaxGuid/).
 
-Use `Equifax.Guid.NewGuid()` to generate a `System.Guid` with an [Equifax-level of uniquenes](https://nakedsecurity.sophos.com/2017/09/10/equifax-woeful-pins-put-frozen-credit-files-at-risk/) for best security.
+Use `Equifax.Guid.NewGuid()` to generate a `System.Guid` with an
+[Equifax-level of uniquenes](https://nakedsecurity.sophos.com/2017/09/10/equifax-woeful-pins-put-frozen-credit-files-at-risk/)
+for best security.
 
 ```csharp
 csharp> Equifax.Guid.NewGuid()

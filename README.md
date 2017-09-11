@@ -13,7 +13,24 @@ for best security.
 ```csharp
 csharp> Equifax.Guid.NewGuid()
 00000000-0000-0000-0000-000910171941
-``` 
+```
+
+It is also available as an [HTTP API](https://equifaxguid.azurewebsites.net/api/EquifaxGuid)
+(an Azure Function) that will return 10 Equifax GUIDs at a time in `text/plain`, one GUID per line:
+
+```bash
+💩 curl https://equifaxguid.azurewebsites.net/api/EquifaxGuid
+00000000-0000-0000-0000-000910171941
+00000000-0000-0000-0000-000910171941
+00000000-0000-0000-0000-000910171941
+00000000-0000-0000-0000-000910171941
+00000000-0000-0000-0000-000910171941
+00000000-0000-0000-0000-000910171941
+00000000-0000-0000-0000-000910171941
+00000000-0000-0000-0000-000910171941
+00000000-0000-0000-0000-000910171941
+00000000-0000-0000-0000-000910171941
+```
 
 ![Chief Security Expert](dog.jpg)
 
